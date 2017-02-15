@@ -13,6 +13,9 @@
 		022639531E546BA6000261B8 /* SloppySwiper.m in Sources */ = {isa = PBXBuildFile; fileRef = 022639351E546B79000261B8 /* SloppySwiper.m */; };
 		022639551E546BA6000261B8 /* SSWAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 022639371E546B79000261B8 /* SSWAnimator.m */; };
 		022639571E546BA6000261B8 /* SSWDirectionalPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 022639391E546B79000261B8 /* SSWDirectionalPanGestureRecognizer.m */; };
+		0226397F1E547CD4000261B8 /* SSWAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 022639361E546B79000261B8 /* SSWAnimator.h */; };
+		022639801E547CD4000261B8 /* SSWDirectionalPanGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 022639381E546B79000261B8 /* SSWDirectionalPanGestureRecognizer.h */; };
+		022639811E547CD9000261B8 /* SloppySwiper.h in Headers */ = {isa = PBXBuildFile; fileRef = 022639341E546B79000261B8 /* SloppySwiper.h */; };
 		146AA09499CB4FC6ABD4EA97 /* libPods-SloppySwiperExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C35420AFFDBA4562A96B6D58 /* libPods-SloppySwiperExample.a */; };
 		A6C429501937ABD10095C38C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C4294F1937ABD10095C38C /* Foundation.framework */; };
 		A6C429521937ABD10095C38C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C429511937ABD10095C38C /* CoreGraphics.framework */; };
@@ -249,6 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				022639491E546BA0000261B8 /* SloppySwiper.h in Headers */,
+				022639811E547CD9000261B8 /* SloppySwiper.h in Headers */,
+				0226397F1E547CD4000261B8 /* SSWAnimator.h in Headers */,
+				022639801E547CD4000261B8 /* SSWDirectionalPanGestureRecognizer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
