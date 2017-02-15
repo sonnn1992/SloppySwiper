@@ -26,7 +26,7 @@ UIViewAnimationOptions const SSWNavigationTransitionCurve = 7 << 16;
     animation.fromValue = @(self.layer.shadowOpacity);
     animation.toValue = @(toValue);
     [self.layer addAnimation:animation forKey:nil];
-    self.layer.shadowOpacity = toValue;
+    self.layer.shadowOpacity = (float)toValue;
 }
 @end
 
