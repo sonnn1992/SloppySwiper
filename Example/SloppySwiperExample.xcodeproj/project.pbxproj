@@ -10,11 +10,8 @@
 		022639491E546BA0000261B8 /* SloppySwiper.h in Headers */ = {isa = PBXBuildFile; fileRef = 022639471E546BA0000261B8 /* SloppySwiper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0226394C1E546BA0000261B8 /* SloppySwiper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022639451E546BA0000261B8 /* SloppySwiper.framework */; };
 		0226394D1E546BA0000261B8 /* SloppySwiper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 022639451E546BA0000261B8 /* SloppySwiper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		022639521E546BA6000261B8 /* SloppySwiper.h in Sources */ = {isa = PBXBuildFile; fileRef = 022639341E546B79000261B8 /* SloppySwiper.h */; };
 		022639531E546BA6000261B8 /* SloppySwiper.m in Sources */ = {isa = PBXBuildFile; fileRef = 022639351E546B79000261B8 /* SloppySwiper.m */; };
-		022639541E546BA6000261B8 /* SSWAnimator.h in Sources */ = {isa = PBXBuildFile; fileRef = 022639361E546B79000261B8 /* SSWAnimator.h */; };
 		022639551E546BA6000261B8 /* SSWAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 022639371E546B79000261B8 /* SSWAnimator.m */; };
-		022639561E546BA6000261B8 /* SSWDirectionalPanGestureRecognizer.h in Sources */ = {isa = PBXBuildFile; fileRef = 022639381E546B79000261B8 /* SSWDirectionalPanGestureRecognizer.h */; };
 		022639571E546BA6000261B8 /* SSWDirectionalPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 022639391E546B79000261B8 /* SSWDirectionalPanGestureRecognizer.m */; };
 		146AA09499CB4FC6ABD4EA97 /* libPods-SloppySwiperExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C35420AFFDBA4562A96B6D58 /* libPods-SloppySwiperExample.a */; };
 		A6C429501937ABD10095C38C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C4294F1937ABD10095C38C /* Foundation.framework */; };
@@ -419,11 +416,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				022639521E546BA6000261B8 /* SloppySwiper.h in Sources */,
 				022639531E546BA6000261B8 /* SloppySwiper.m in Sources */,
-				022639541E546BA6000261B8 /* SSWAnimator.h in Sources */,
 				022639551E546BA6000261B8 /* SSWAnimator.m in Sources */,
-				022639561E546BA6000261B8 /* SSWDirectionalPanGestureRecognizer.h in Sources */,
 				022639571E546BA6000261B8 /* SSWDirectionalPanGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
